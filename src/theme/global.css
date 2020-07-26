@@ -1,0 +1,62 @@
+:root {
+  direction: rtl;
+}
+
+.rtl-label {
+  position: relative;
+  left: 25%;
+}
+
+.alert-wrapper .alert-radio-icon,
+.select-interface-option .alert-checkbox-icon {
+  left: -24px;
+}
+
+/* Experts */
+.expert-item {
+  padding: 7% 10px;
+  background: lightgray;
+}
+
+.whatsapp-icon {
+  color: green;
+}
+
+/* Lectures */
+.lecture-image {
+  width: 100%;
+  max-height: 200px;
+  overflow: hidden;
+}
+
+.lecture-subtitle {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+}
+
+.lecture-subtitle ion-icon {
+  margin-left: 10px;
+}
+
+.lecture-subtitle span {
+  display: flex;
+  margin-left: 25px;
+}
+
+/* Single Lecture */
+.single-lecture-image {
+  width: 100%;
+  max-height: 350px;
+  overflow: hidden;
+}
+
+.single-lecture-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-lecture-info {
+  font-weight: 600;
+}
